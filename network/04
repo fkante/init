@@ -1,1 +1,1 @@
-netstat -nr | grep "default" | head -1 | cut -d " " -f1,13,19,30,37,42
+netstat -nr | grep -A 4 "Routing tables"

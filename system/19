@@ -1,0 +1,17 @@
+it is :deamons
+
+found here : "ls /etc/init.d"
+
+apparmor
+console-setup.sh
+cron
+dbus
+hwclock.sh
+keyboard-setup.sh
+kmod
+networking
+procps
+rsyslog
+ssh
+sudo
+udev

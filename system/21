@@ -1,0 +1,3 @@
+grep -E '^UID_MIN|^UID_MAX' /etc/login.defs;
+echo "sudo cat /etc/login.defs; permet de trouver les min et max valeurs automatiquement selection pour un user normal et system";
+getent passwd {1000..60000};
